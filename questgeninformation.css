@@ -1,0 +1,41 @@
+element.style {
+  translate: none;
+  rotate: none;
+  scale: none;
+  opacity: 1;
+  visibility: inherit;
+}
+
+.informationquestgen {
+  align-items: center;
+  background: transparent;
+  border: none;
+  color: #fff;
+  display: flex;
+  flex-direction: row;
+  font-size: min(3.2vw,20px);
+  font-weight: 500;
+  gap: 8px;
+  justify-content: center;
+  letter-spacing: .25em;
+  letter-spacing: .15em;
+  height: 50px;
+  width: 100%;
+}
+
+:root * {
+  box-sizing: border-box;
+}
+
+.questgeninformation {
+  background: linear-gradient(90deg,#152827,#416274 50%,#8097A5);
+  background-position: 0 0,50%;
+  background-repeat: no-repeat;
+  background-size: 100% 100%,100% 100%;
+  left: 0;
+  overflow: hidden;
+  position: block;
+  top: 0;
+  width: 100%;
+  z-index: 11500;
+}
